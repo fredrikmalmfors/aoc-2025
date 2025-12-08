@@ -1,0 +1,30 @@
+{
+    "github.copilot.enable": {
+      "*": false,
+      "plaintext": false,
+      "markdown": false,
+      "scminput": false,
+      "python": false,
+      "javascript": false,
+      "typescript": false
+    },
+
+    // Disable IntelliSense completions
+    "editor.quickSuggestions": {
+      "other": false,
+      "comments": false,
+      "strings": false
+    },
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.wordBasedSuggestions": "off",
+
+    // Disable Pylance language server completions
+    "python.analysis.autoImportCompletions": false,
+
+    // Hide parameter hints
+    "editor.parameterHints.enabled": false,
+    "editor.hover.enabled": true,
+
+    // Disable Error Lens extension
+    "errorLens.enabled": false
+}
